@@ -107,7 +107,8 @@ if (username IS NOT NULL) then
 end if;
 
 -- uh oh, nothing found
-return 'nf';
+-- return 'nf';
+return 'gr-ro';
 
 END
 $$ LANGUAGE plpgsql;
